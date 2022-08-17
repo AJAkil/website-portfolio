@@ -41,8 +41,9 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 189, 93, 56;
-  --bs-secondary-rgb: 108, 117, 125;
+  --main-color: 168, 218, 220;
+  --bs-primary-rgb: 69, 123, 157;
+  --bs-secondary-rgb: 230, 57, 70;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
@@ -213,6 +214,15 @@ strong {
 
 small, .small {
   font-size: 0.875em;
+}
+
+.div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-padded {
+  Padding: 10px,10px,10px;
 }
 
 mark, .mark {
